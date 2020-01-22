@@ -1,0 +1,8 @@
+<div ><button *ngIf="id !== 0" mat-button type="button" (click)="moveLeft()">
+    &lt; 
+</button>
+{{cardContent}}
+<button *ngIf="id !== (cardLen-1)" mat-button type="button" (click)="moveRight()">
+    &gt;
+</button>
+</div>

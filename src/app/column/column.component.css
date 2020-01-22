@@ -1,0 +1,14 @@
+.mat-card{
+    border: solid 1px white;
+    margin-left: 25px;
+    padding: 0px;
+}
+
+.mat-raised-button{
+    width:90%;
+    margin-left: 25px;
+    background-color: grey;
+    color: white;
+    margin-top: 3px;
+    font-size: 14px;
+}

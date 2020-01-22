@@ -1,0 +1,8 @@
+.addList{
+    background-color: #dbdee3;
+    margin:3px 25px;
+    padding:3px;
+    width: 210px;
+    text-align: center;
+    cursor: pointer;
+}

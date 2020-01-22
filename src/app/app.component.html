@@ -1,0 +1,8 @@
+<div fxLayout="row" fxLayoutAlign="center" style="display:flex;">
+  <div fxLayout="column" *ngFor="let col of columns; let i=index">
+    <app-column [title]= col.name [headColors]=col.color [cardContent]=col.cardContent [col]=i></app-column>
+  </div>
+  <div fxLayout="column">
+    <div class="addList" (click)="addList()">+ Add Another List</div>
+  </div>
+</div>
